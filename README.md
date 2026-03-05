@@ -6,6 +6,7 @@
 ![Java](https://img.shields.io/badge/Java-17%2B-orange)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.4-brightgreen?logo=springboot)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?logo=tailwindcss)
+![License](https://img.shields.io/github/license/IgnacioLegui/ThreadLodge---Hotel-Booking-System)
 ![Version](https://img.shields.io/badge/version-1.0-blue)
 
 ---

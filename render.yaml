@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: threadlodge-backend
+    env: docker
+    region: ohio
+    plan: free
+    rootDir: backend
+    healthCheckPath: /api/rooms/available?checkIn=2026-10-10&checkOut=2026-10-12
+    envVars:
+      - key: PORT
+        value: 8080
+      - key: DB_URL
+        value: jdbc:postgresql://ep-silent-bar-a5jshzom.us-east-2.aws.neon.tech/hoteldb?sslmode=require
+      - key: DB_USERNAME
+        value: neondb_owner
+      - key: DB_PASSWORD
+        sync: false # Debes cargarlo manualmente en el panel de Render

@@ -102,6 +102,12 @@ hotel-booking-system/
 
 ---
 
+## 📚 Documentation
+
+- [📄 **Software Requirements Specification (SRS)**](./ThreadLodge_SRS_English.pdf)
+
+---
+
 ## 📬 Contact Developer
 
 **Ignacio Leguizamon**  

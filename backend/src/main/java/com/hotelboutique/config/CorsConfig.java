@@ -15,8 +15,12 @@ public class CorsConfig {
     public CorsFilter corsFilter() {
         CorsConfiguration config = new CorsConfiguration();
 
-        // Allow Next.js frontend
-        config.setAllowedOrigins(List.of("http://localhost:3000"));
+        // Allow Next.js frontend (local & production)
+        config.setAllowedOrigins(List.of(
+                "http://localhost:3000",
+                "https://thread-lodge.vercel.app",
+                "https://ignacioleguizamon.site",
+                "https://www.ignacioleguizamon.site"));
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(List.of("*"));
         config.setAllowCredentials(true);
